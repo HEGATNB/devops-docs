@@ -13,7 +13,7 @@ on:
 permissions:
   contents: read
   pages: write
-  # INCIDENT 2: OIDC token permission is missing intentionally.
+  id-token: write
 
 concurrency:
   group: pages
